@@ -1,0 +1,93 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>website</title>
+		<link rel="stylesheet" type="text/css" href="website.css">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		
+
+	</head>
+	<body>
+		<!--header parts starts here-->
+		<div class="header">
+			<div class="gmail">
+				<div>
+					<p><i class="fas fa-envelope"></i> Mail Us :rabbyshek1998@gmail.com</p>
+				</div>
+			</div>
+			<div class="icons">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-youtube-square"></i>
+				<i class="fab fa-github"></i>
+				<i class="fab fa-linkedin"></i>
+			</div>
+
+		</div>
+
+
+		<!--header parts ends here-->
+	<!--navigation parts start here -->
+
+	<nav>
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Services</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Contuct Us</a></li>
+		
+		</ul>
+	</nav>
+	<!--navigation parts ends here-->
+	<!--banner parts starts here -->
+	<img src="banner_2.jpg">
+	<div class="banner_tittle">
+		welcome to electro world
+	</div>
+
+	<!--banner parts ends here -->
+	<div class="program">
+		<h2># A c program to find out a year is leap year or not.</h2>
+		<hr class="horizontal_line">
+		<code>
+			<pre>
+	          #include
+                    int main() {
+                       int year;
+                       printf("Enter a year: ");
+                       scanf("%d", &year);
+                    
+                       // leap year if perfectly visible by 400
+                       if (year % 400 == 0) {
+                          printf("%d is a leap year.", year);
+                       }
+                       // not a leap year if visible by 100
+                       // but not divisible by 400
+                       else if (year % 100 == 0) {
+                          printf("%d is not a leap year.", year);
+                       }
+                       // leap year if not divisible by 100
+                       // but divisible by 4
+                       else if (year % 4 == 0) {
+                          printf("%d is a leap year.", year);
+                       }
+                       // all other years are not leap year
+                       else {
+                          printf("%d is not a leap year.", year);
+                       }
+                    
+                       return 0;
+                    }
+                
+			</pre>
+		</code>
+	</div>
+	<div class="copyright">
+		<p>Copyright © md rabby shek suvo</p>
+		
+	</div>
+
+	</body>
+	</html>
